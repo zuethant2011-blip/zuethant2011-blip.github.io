@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smartspot | Real-Time Available Slots</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      class="icon"
+      rel="icon"
+      type="image/x-icon"
+      href="../images/favicon.png"
+    />
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <nav class="top-bar">
+      <a class="logo-box" href="/index.html">
+        <img src="../images/carlogo.png" alt="SmartSpot Logo" />
+        <h3>SmartSpot</h3>
+      </a>
+
+      <div class="menu">
+        <a href="/index.html">Home</a>
+        <a href="/pages/aboutus.html">About Us</a>
+        <a href="/pages/parking.html">Parking</a>
+        <a href="/pages/trafficeffiency.html">Traffic Efficiency</a>
+        <a href="/pages/signin.html">Sign In</a>
+        <a href="/pages/signup.html">Sign Up</a>
+      </div>
+    </nav>
+    <!-- Navbar Ends  -->
+
+    <main class="content-area">
+      <div class="header-text" style="margin-bottom: 30px">
+        <a
+          href="parking.html"
+          style="
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+          "
+          >← Back to Locations</a
+        >
+        <h1 class="title-text" style="font-size: 38px; color: white">
+          Live Floor Layout Maps
+        </h1>
+
+        <p class="parking-legend">
+          <span class="legend available-legend">🟢 Available Slots</span>
+          Ready for booking and immediate parking access.
+          <br />
+          <span class="legend taken-legend">🔴 Occupied Slots</span>
+          Currently in use and temporarily unavailable for reservation.
+        </p>
+      </div>
+
+      <div class="parking-container">
+        <!-- Section 1: Junction City -->
+        <div class="parking-location" id="junction-city">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Junction City Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot taken">A1</div>
+            <div class="slot available">A2</div>
+            <div class="slot taken">A3</div>
+            <div class="slot available">A4</div>
+            <div class="slot available">A5</div>
+            <div class="slot taken">A6</div>
+            <div class="slot available">A7</div>
+            <div class="slot available">A8</div>
+            <div class="slot taken">A9</div>
+            <div class="slot available">A10</div>
+            <div class="slot taken">A11</div>
+            <div class="slot available">A12</div>
+            <div class="slot available">A13</div>
+            <div class="slot taken">A14</div>
+            <div class="slot available">A15</div>
+            <div class="slot taken">A16</div>
+            <div class="slot available">A17</div>
+            <div class="slot available">A18</div>
+            <div class="slot taken">A19</div>
+            <div class="slot available">A20</div>
+          </div>
+        </div>
+
+        <!-- Section 2: Junction Square -->
+        <div class="parking-location" id="junction-square">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Junction Square Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot available">B1</div>
+            <div class="slot taken">B2</div>
+            <div class="slot available">B3</div>
+            <div class="slot taken">B4</div>
+            <div class="slot available">B5</div>
+            <div class="slot available">B6</div>
+            <div class="slot taken">B7</div>
+            <div class="slot available">B8</div>
+            <div class="slot taken">B9</div>
+            <div class="slot available">B10</div>
+            <div class="slot available">B11</div>
+            <div class="slot taken">B12</div>
+            <div class="slot available">B13</div>
+            <div class="slot taken">B14</div>
+            <div class="slot available">B15</div>
+            <div class="slot available">B16</div>
+            <div class="slot taken">B17</div>
+            <div class="slot available">B18</div>
+            <div class="slot taken">B19</div>
+            <div class="slot available">B20</div>
+          </div>
+        </div>
+
+        <!-- Section 3: Sule Square -->
+        <div class="parking-location" id="sule-square">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Sule Square Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot taken">C1</div>
+            <div class="slot taken">C2</div>
+            <div class="slot available">C3</div>
+            <div class="slot taken">C4</div>
+            <div class="slot available">C5</div>
+            <div class="slot taken">C6</div>
+            <div class="slot available">C7</div>
+            <div class="slot available">C8</div>
+            <div class="slot taken">C9</div>
+            <div class="slot available">C10</div>
+            <div class="slot taken">C11</div>
+            <div class="slot available">C12</div>
+            <div class="slot available">C13</div>
+            <div class="slot taken">C14</div>
+            <div class="slot available">C15</div>
+            <div class="slot taken">C16</div>
+            <div class="slot available">C17</div>
+            <div class="slot available">C18</div>
+            <div class="slot taken">C19</div>
+            <div class="slot available">C20</div>
+          </div>
+        </div>
+
+        <!-- Section 4: Myanmar Plaza -->
+        <div class="parking-location" id="myanmar-plaza">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Myanmar Plaza Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot available">D1</div>
+            <div class="slot available">D2</div>
+            <div class="slot taken">D3</div>
+            <div class="slot available">D4</div>
+            <div class="slot taken">D5</div>
+            <div class="slot available">D6</div>
+            <div class="slot available">D7</div>
+            <div class="slot taken">D8</div>
+            <div class="slot available">D9</div>
+            <div class="slot available">D10</div>
+            <div class="slot taken">D11</div>
+            <div class="slot available">D12</div>
+            <div class="slot taken">D13</div>
+            <div class="slot available">D14</div>
+            <div class="slot available">D15</div>
+            <div class="slot taken">D16</div>
+            <div class="slot available">D17</div>
+            <div class="slot taken">D18</div>
+            <div class="slot available">D19</div>
+            <div class="slot available">D20</div>
+          </div>
+        </div>
+
+        <!-- Section 5: Shwedagon Pagoda -->
+        <div class="parking-location" id="shwedagon">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Shwedagon Pagoda Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot taken">E1</div>
+            <div class="slot available">E2</div>
+            <div class="slot available">E3</div>
+            <div class="slot taken">E4</div>
+            <div class="slot available">E5</div>
+            <div class="slot taken">E6</div>
+            <div class="slot available">E7</div>
+            <div class="slot available">E8</div>
+            <div class="slot taken">E9</div>
+            <div class="slot available">E10</div>
+            <div class="slot taken">E11</div>
+            <div class="slot available">E12</div>
+            <div class="slot available">E13</div>
+            <div class="slot taken">E14</div>
+            <div class="slot available">E15</div>
+            <div class="slot taken">E16</div>
+            <div class="slot available">E17</div>
+            <div class="slot available">E18</div>
+            <div class="slot taken">E19</div>
+            <div class="slot available">E20</div>
+          </div>
+        </div>
+
+        <!-- Section 6: People's Park -->
+        <div class="parking-location" id="peoples-park">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              People's Park Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot available">F1</div>
+            <div class="slot taken">F2</div>
+            <div class="slot available">F3</div>
+            <div class="slot available">F4</div>
+            <div class="slot taken">F5</div>
+            <div class="slot available">F6</div>
+            <div class="slot taken">F7</div>
+            <div class="slot available">F8</div>
+            <div class="slot available">F9</div>
+            <div class="slot taken">F10</div>
+            <div class="slot available">F11</div>
+            <div class="slot taken">F12</div>
+            <div class="slot available">F13</div>
+            <div class="slot available">F14</div>
+            <div class="slot taken">F15</div>
+            <div class="slot available">F16</div>
+            <div class="slot taken">F17</div>
+            <div class="slot available">F18</div>
+            <div class="slot available">F19</div>
+            <div class="slot taken">F20</div>
+          </div>
+        </div>
+
+        <!-- Section 7: Maha Bandula Park Street -->
+        <div class="parking-location" id="maha-bandula">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Maha Bandula Park Street Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot taken">G1</div>
+            <div class="slot available">G2</div>
+            <div class="slot taken">G3</div>
+            <div class="slot available">G4</div>
+            <div class="slot available">G5</div>
+            <div class="slot taken">G6</div>
+            <div class="slot available">G7</div>
+            <div class="slot taken">G8</div>
+            <div class="slot available">G9</div>
+            <div class="slot available">G10</div>
+            <div class="slot taken">G11</div>
+            <div class="slot available">G12</div>
+            <div class="slot taken">G13</div>
+            <div class="slot available">G14</div>
+            <div class="slot available">G15</div>
+            <div class="slot taken">G16</div>
+            <div class="slot available">G17</div>
+            <div class="slot taken">G18</div>
+            <div class="slot available">G19</div>
+            <div class="slot available">G20</div>
+          </div>
+        </div>
+
+        <!-- Section 8: Pansodan & Sule Pagoda Roads -->
+        <div class="parking-location" id="pansodan">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              Pansodan & Sule Roads Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot available">H1</div>
+            <div class="slot taken">H2</div>
+            <div class="slot available">H3</div>
+            <div class="slot taken">H4</div>
+            <div class="slot available">H5</div>
+            <div class="slot available">H6</div>
+            <div class="slot taken">H7</div>
+            <div class="slot available">H8</div>
+            <div class="slot taken">H9</div>
+            <div class="slot available">H10</div>
+            <div class="slot available">H11</div>
+            <div class="slot taken">H12</div>
+            <div class="slot available">H13</div>
+            <div class="slot taken">H14</div>
+            <div class="slot available">H15</div>
+            <div class="slot available">H16</div>
+            <div class="slot taken">H17</div>
+            <div class="slot available">H18</div>
+            <div class="slot taken">H19</div>
+            <div class="slot available">H20</div>
+          </div>
+        </div>
+
+        <!-- Section 9: The Secretariat -->
+        <div class="parking-location" id="secretariat">
+          <div class="location-info">
+            <h3 style="color: #3b82f6; font-size: 24px; margin-bottom: 5px">
+              The Secretariat Dashboard
+            </h3>
+            <p style="color: #94a3b8; font-size: 14px; margin-bottom: 15px">
+              Live grid view of active floor levels.
+            </p>
+          </div>
+          <div class="slots-grid" style="display: grid !important">
+            <div class="slot taken">I1</div>
+            <div class="slot available">I2</div>
+            <div class="slot available">I3</div>
+            <div class="slot taken">I4</div>
+            <div class="slot available">I5</div>
+            <div class="slot taken">I6</div>
+            <div class="slot available">I7</div>
+            <div class="slot available">I8</div>
+            <div class="slot taken">I9</div>
+            <div class="slot available">I10</div>
+            <div class="slot taken">I11</div>
+            <div class="slot available">I12</div>
+            <div class="slot available">I13</div>
+            <div class="slot taken">I14</div>
+            <div class="slot available">I15</div>
+            <div class="slot taken">I16</div>
+            <div class="slot available">I17</div>
+            <div class="slot available">I18</div>
+            <div class="slot taken">I19</div>
+            <div class="slot available">I20</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>SmartSpot</h3>
+          <p>
+            Making Taungoo a smarter, cleaner city through electric transport
+            and better parking.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Useful Links</h4>
+          <ul class="footer_ul">
+            <div>
+              <a href="index.html">Home</a>
+              <a href="aboutus.html">About Project</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </ul>
+        </div>
+        <div class="footer-socialmedia">
+          <h4>Follow Our Progress</h4>
+          <div class="footer_div">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 SmartSpot | Designed by Year 8 Students. All Right
+          Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

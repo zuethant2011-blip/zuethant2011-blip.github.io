@@ -1,0 +1,12 @@
+Topic = Smart parking
+
+DQ = How can year8 students create a digital platform for local residents to educate awareness about sustainable city while sharing solutions and ideas?
+
+EQ = How can we create a simple website to raise awareness about how smart technology helps to reduce parking issues and improve traffic efficiency in urban areas?
+
+Focus Area
+Our project focuses on solving parking problems in busy urban areas using technology. We will create a website  for a smart parking system that shows how drivers can quickly find available parking spaces. Our website will include features like a parking map idea, instructions on how the system works, and how technology can reduce traffic and save time. Our goal is to demonstrate how a simple digital solution can improve parking efficiency in cities and make driving less stressful.
+
+
+
+
